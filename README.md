@@ -7,12 +7,16 @@ You'll have about 55 minutes to work through the problems in this repository. We
 
 There are 5 different problems. You'll be working for about 40 minutes on your own, after which point your interviewer will sit and pair with you for the last 15 minutes. Again -- work on what you know first.
 
-To get started, clone the repository and then solve whichever problems you can:
+To get started, download this file and unzip it into a folder on the machine you're working on:
 
 ```bash
-$ git clone https://github.com/Devbootcamp/phase-1-assessment.git
+$ 
 ```
 
-**NOTE:** Other than to ```clone``` the repository you do NOT need to commit any code using ```git```. Simply work on your solutions in the cloned repository on the computer you're working on. Then, your interviewer will review it with you. Please note also, that **after the interview is over, you should delete your code**.
+Once you unzip the file, it will create a folder called `phase-1-assessment`. Beneath that folder, there will be 5 sub-folders: `problem-01`, `problem-02`, `problem-03`, `problem-04`, and `problem-05`.
+
+Please keep the code you write to solve each problem within the folder for that problem. It happens to be the case that `problem-03` builds on `problem-02`, so after you solve `problem-02`, you might want to copy your code from `problem-02` to `problem-03` to use as a starting point.
+
+**REMEMBER!!** If you get stuck, move on to the next thing.
 
 **Good luck!**
