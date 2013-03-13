@@ -24,13 +24,11 @@ When you're done, you should be able to handle the [Behaviors](#behaviors) outli
 ## This is your driver code, make it run:
 
 ```ruby
-
 ## Create a user
 user = User.new :name => "ed shadi", :email => "shadi@devbootcamp.com", :photo_name => "shadi", :photo_url => "http://awesome.com/shadi"
 
 ## Create a Product
 product = Product.new :name => "laptop", :description => "macbook pro", :price => 1500, :photo_name => "macbook", :photo_url => "http://sweet.com/macbook"
-
 
 ## Obtain information about a User
 user.name      # should return "ed shadi"
