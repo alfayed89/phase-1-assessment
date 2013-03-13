@@ -5,7 +5,7 @@ CLEAN = FileList['README.pdf', 'top.html', 'top.pdf', 'problem-??.html', 'proble
 task :checkprogs do
   ["multimarkdown", "wkhtmltopdf", "gs"].each do |prog|
     tmpfile = "/tmp/#{prog}-#{Time.now.to_i}"
-    raise "You need to install '#{prog}'. Try homebrew!" unless system "#{prog} --help > #{tmpfile} 2&>1"
+    raise "You need to install '#{prog}'. Try homebrew!" unless system "#{prog} --help > #{tmpfile} 2>&1"
   end
 end
 
@@ -32,3 +32,6 @@ task :docs => [:checkprogs] do
   success = system "gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=README.pdf top.pdf #{pdf_files.join(' ')}"
   raise "ERROR: gs command failed" if not success
 end
+
+
+task :archive
