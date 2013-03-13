@@ -7,10 +7,15 @@ You'll have about 55 minutes to work through the problems in this repository. We
 
 There are 5 different problems. You'll be working for about 40 minutes on your own, after which point your interviewer will sit and pair with you for the last 15 minutes. Again -- work on what you know first.
 
-To get started, download this file and unzip it into a folder on the machine you're working on:
+To get started, download this file and unzip it into a folder on the machine you're working on, then open that folder in Sublime Text 2:
 
 ```bash
-$ 
+$ mkdir -p ~/Desktop/<your name>
+$ cd ~/Desktop/<your name>
+$ curl -LO ____________________________ # <-- teachers: write the URL here!
+$ unzip phase-1-assessment.zip
+$ cd phase-1-assessment
+$ subl .
 ```
 
 Once you unzip the file, it will create a folder called `phase-1-assessment`. Beneath that folder, there will be 5 sub-folders: `problem-01`, `problem-02`, `problem-03`, `problem-04`, and `problem-05`.
