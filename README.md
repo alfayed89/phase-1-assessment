@@ -12,7 +12,7 @@ To get started, download this file and unzip it into a folder on the machine you
 ```bash
 $ mkdir -p ~/Desktop/<your name>
 $ cd ~/Desktop/<your name>
-$ curl -LO ____________________________ # <-- teachers: write the URL here!
+$ curl -LO http://cl.ly/3b2h3J3N1P1X
 $ unzip phase-1-assessment.zip
 $ cd phase-1-assessment
 $ subl .
