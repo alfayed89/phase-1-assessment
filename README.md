@@ -3,9 +3,9 @@ Phase 1 Assessment
 
 Greetings! This repository has been designed to assess what you've been learning over the past three weeks during Phase 1 of Dev Bootcamp.
 
-You'll have about 55 minutes to work through the problems in this repository. We suggest that you read through all of the problems first before starting on any of them. If you don't know how to solve one of them, or if you get stuck, simply move on to the next one. Don't waste time spinning your wheels -- **move on and just get as much done as possible**.
+You have 55 minutes total for this assessment. You will start by working on the problems in this repository for about 40 minutes on your own, after which point your interviewer will sit and pair with you for the last 15 minutes. 
 
-There are 5 different problems. You'll be working for about 40 minutes on your own, after which point your interviewer will sit and pair with you for the last 15 minutes. Again -- work on what you know first.
+There are 5 different problems. We suggest that you read through all of the problems first before starting on any of them. If you don't know how to solve one of them, or if you get stuck, simply move on to the next one. Don't waste time spinning your wheels -- **move on and just get as much done as possible**.
 
 To get started, download this file and unzip it into a folder on the machine you're working on, then open that folder in Sublime Text 2:
 

@@ -12,7 +12,7 @@ You'll need to ```require_relative "config"``` in any of your classes for things
 $ bundle install  # installs the required gems
 ```
 
-Also, be sure you use ```bundle exec` when running the code:
+Also, be sure you use `bundle exec` when running the code:
 
 ```bash
 $ bundle exec ruby <your driver program>.rb  # the 'bundle exec' makes sure the gems are loaded
